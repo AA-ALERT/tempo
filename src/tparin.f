@@ -21,12 +21,12 @@ c     following variables are set in this routine:
       integer lpth
       integer nparmax, nptsmax
       real*8 version
-      character*160 npulsefile
-      character*640 infile
-      character*80 path
-      character*80 resfile1
-      character*80 hlpfile
-      character*160 parfile
+      character*4096 npulsefile
+      character*4096 infile
+      character*4096 path
+      character*4096 resfile1
+      character*4096 hlpfile
+      character*4096 parfile
       character*160 key
       character*160 val
       integer err
